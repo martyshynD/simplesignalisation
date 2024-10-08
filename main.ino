@@ -47,11 +47,10 @@ int distance;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(3, OUTPUT);
+  pinMode(3, OUTPUT); //buzzer pin
 }
 
 void loop() {
-  // Pass INC as a parameter to get the distance in inches
   distance = ultrasonic.read();
   
 
