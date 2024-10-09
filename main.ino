@@ -60,7 +60,7 @@ void loop() {
     Serial.println("Robber!");
     digitalWrite(3,1);
   }
-  if (distance >= 5){
-    digitalWrite(3,0);
-  }
+  
+  digitalWrite(3,0);
+  
 }
